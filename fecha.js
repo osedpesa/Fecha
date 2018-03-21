@@ -44,3 +44,11 @@ function validarFecha(vDia, vMes, vYear) {
 	}
 	return true;
 }
+
+function imprimirLatino(){
+	document.getElementById("p").textContent() = "("+vDia+"/"+vMes+"/"+vYear")"; 
+}
+
+function imprimirGringo(){
+	document.getElementById("p").textContent() = "("+vMes+"/"+vDia+"/"+vYear")"; 
+}
