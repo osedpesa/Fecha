@@ -52,3 +52,5 @@ function imprimirLatino(){
 function imprimirGringo(){
 	document.getElementById("p").textContent() = "("+vMes+"/"+vDia+"/"+vYear")"; 
 }
+
+//e
