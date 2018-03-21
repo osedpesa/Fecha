@@ -3,12 +3,14 @@
 <head>
 	<title>Metodos de Fecha</title>
 	<meta charset="utf-8">
+	<script type="text/javascript" src="fecha.js"></script>
 </head>
 <body>
 	<h2>ADQUIRIR FECHA</h2>
-	<label>Dia</label><input type="number">
-	<label>Mes</label><input type="number">
-	<label>Año</label><input type="number">
-
+	<label>Dia</label><input id="dia" type="number">
+	<label>Mes</label><input id="mes" type="number">
+	<label>Año</label><input id="year" type="number">
+	<input type="button" onclick="comprobarBisiesto()" value="Comprobar Bisiesto">
+	<p id="pBisiesto"></p>
 </body>
 </html>
